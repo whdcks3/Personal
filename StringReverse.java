@@ -4,7 +4,7 @@ public class StringReverse {
         
         StringBuffer sb= new StringBuffer(my_string);
         String reverse = sb.reverse().toString();
-        
         System.out.println(reverse);
     }
 }
+// https://school.programmers.co.kr/learn/courses/30/lessons/120822
