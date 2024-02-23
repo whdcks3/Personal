@@ -14,3 +14,4 @@ public class num_pairs {
         // System.out.println(answer);
     }
 }
+// https://school.programmers.co.kr/learn/courses/30/lessons/120836
