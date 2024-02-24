@@ -2,12 +2,9 @@ public class String_after {
     public static void main(String[] args) {
         String my_string = "ProgrammerS123";
         int n=11;
-        String[] arr = my_string.split("");
-        String answer="";
+        String str=my_string.substring(my_string.length()-n);
 
-        for(int i=my_string.length()-1;i>=0;i--){
-            answer+=arr[i];
-        }
-        System.out.println(answer);
+        System.out.println(str);
     }
 }
+// https://school.programmers.co.kr/learn/courses/30/lessons/181910
