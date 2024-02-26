@@ -1,4 +1,4 @@
-public class Conversion {
+public class Conversion_oddeven {
     public static void main(String[] args) {
         int n=7;
         int answer=0;
