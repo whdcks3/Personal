@@ -1,5 +1,3 @@
-package Level1;
-
 import java.util.Arrays;
 
 public class Number_x {

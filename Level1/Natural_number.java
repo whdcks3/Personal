@@ -1,4 +1,3 @@
-package Level1;
 import java.util.Arrays;
 
 public class Natural_number {

@@ -1,5 +1,3 @@
-package Level1;
-
 public class Find_num1 {
     public static void main(String[] args) {
         int n = 10;

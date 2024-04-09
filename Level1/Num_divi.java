@@ -1,5 +1,3 @@
-package Level1;
-
 public class Num_divi {
     public static void main(String[] args) {
         int n = 12;

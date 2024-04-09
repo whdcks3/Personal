@@ -1,5 +1,3 @@
-package Level1;
-
 public class Harshad {
     public static void main(String[] args) {
         boolean answer=false;

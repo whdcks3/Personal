@@ -1,5 +1,3 @@
-package Level1;
-
 public class Find_kim {
     public static void main(String[] args) {
         String[] seoul = {"Jane", "Kim"};

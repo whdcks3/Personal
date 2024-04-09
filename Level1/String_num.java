@@ -1,5 +1,3 @@
-package Level1;
-
 public class String_num {
     public static void main(String[] args) {
         String my_string = "-1234";

@@ -1,5 +1,3 @@
-package Level1;
-
 public class Add_m_p {
     public static void main(String[] args) {
         int[] absolutes = {4,7,12};

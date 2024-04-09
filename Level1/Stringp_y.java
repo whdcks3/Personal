@@ -1,5 +1,3 @@
-package Level1;
-
 public class Stringp_y {
     public static void main(String[] args) {
         String s="pyy";

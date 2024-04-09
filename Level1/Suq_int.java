@@ -1,4 +1,3 @@
-package Level1;
 
 public class Suq_int {
     public static void main(String[] args) {

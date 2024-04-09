@@ -1,5 +1,3 @@
-package Level1;
-
 public class Between_two {
     public static void main(String[] args) {
         int a=3;

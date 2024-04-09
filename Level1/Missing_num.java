@@ -1,5 +1,3 @@
-package Level1;
-
 public class Missing_num {
     public static void main(String[] args) {
         int[] numbers = {1,2,3,4,6,7,8,0};
