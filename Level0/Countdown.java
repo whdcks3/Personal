@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Countdown {
+public class countdown {
     public static void main(String[] args) {
         int start_num = 10;
         int end_num = 3;

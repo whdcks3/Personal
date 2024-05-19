@@ -1,4 +1,4 @@
-public class Dicegame {
+public class dicegame {
     public static void main(String[] args) {
         int a=3;
         int b=5;

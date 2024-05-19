@@ -1,4 +1,4 @@
-public class AntArmy {
+public class antArmy {
     public static void main(String[] args) {
         int hp = 23;
         int count = 0;

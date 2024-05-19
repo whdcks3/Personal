@@ -1,4 +1,4 @@
-public class StringReverse {
+public class stringReverse {
     public static void main(String[] args) {
         String my_string="jaron";
         

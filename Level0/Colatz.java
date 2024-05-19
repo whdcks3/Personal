@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Colatz {
+public class colatz {
     public static void main(String[] args) {
         int n=10;
         ArrayList<Integer> answer = new ArrayList<>();
