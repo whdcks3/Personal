@@ -1,12 +1,12 @@
 import java.util.Arrays;
 
-public class Rotating_array {
+public class RotatingArray {
     public static void main(String[] args) {
-        int[] numbers ={1,2,3};
-        String direction="right";
-        int[] answer=new int[numbers.length];
+        int[] numbers = { 1, 2, 3 };
+        String direction = "right";
+        int[] answer = new int[numbers.length];
 
-        if (direction.equals("left")){
+        if (direction.equals("left")) {
             for (int i = 0; i < numbers.length - 1; i++) {
                 answer[i] = numbers[i + 1];
             }
@@ -15,7 +15,7 @@ public class Rotating_array {
             for (int i = 1; i < numbers.length; i++) {
                 answer[i] = numbers[i - 1];
             }
-            answer[0] = numbers[numbers.length-1];
+            answer[0] = numbers[numbers.length - 1];
         }
         System.out.println(Arrays.toString(answer));
     }

@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class String_90 {
+public class String90 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String str =sc.nextLine();
+        String str = sc.nextLine();
 
-        for(int i=0;i<str.length();i++){
-            System.out.println(str.substring(i, i+1));
+        for (int i = 0; i < str.length(); i++) {
+            System.out.println(str.substring(i, i + 1));
         }
         sc.close();
     }

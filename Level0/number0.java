@@ -1,9 +1,9 @@
-public class number0 {
+public class Number0 {
     public static void main(String[] args) {
         String n_str = "0010";
 
         int i = Integer.parseInt(n_str);
-        String answer = i+"";
+        String answer = i + "";
         System.out.println(answer);
 
     }

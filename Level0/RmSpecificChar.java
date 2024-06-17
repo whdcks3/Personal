@@ -1,8 +1,8 @@
-public class Rm_specific_characters {
+public class RmSpecificChar {
     public static void main(String[] args) {
-        String my_string="abcdef";
-        String letter="f";
-        String b=my_string.replace(letter,"");
+        String my_string = "abcdef";
+        String letter = "f";
+        String b = my_string.replace(letter, "");
         System.out.println(b);
     }
 }

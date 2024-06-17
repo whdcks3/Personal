@@ -1,10 +1,10 @@
-public class Rm_vowels {
+public class RmVowels {
     public static void main(String[] args) {
         // a,i,o,u,e
         String my_string = "bus";
-        String[] answer= new String[] {"a","i","o","u","e"};
-        for (String a : answer){
-            my_string=my_string.replaceAll(a,"");
+        String[] answer = new String[] { "a", "i", "o", "u", "e" };
+        for (String a : answer) {
+            my_string = my_string.replaceAll(a, "");
         }
         System.out.println(my_string);
     }

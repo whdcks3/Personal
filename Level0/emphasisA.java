@@ -1,9 +1,9 @@
-public class emphasisA {
+public class EmphasisA {
     public static void main(String[] args) {
         String my_string = "abstract algebra";
-        my_string=my_string.toLowerCase();
-        String answer=my_string.replaceAll("a", "A");
-        
+        my_string = my_string.toLowerCase();
+        String answer = my_string.replaceAll("a", "A");
+
         System.out.println(answer);
     }
 }

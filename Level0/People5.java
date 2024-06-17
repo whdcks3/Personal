@@ -4,9 +4,9 @@ import java.util.List;
 
 public class People5 {
     public static void main(String[] args) {
-        String[] names={"nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx"};
+        String[] names = { "nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx" };
         List<String> list = new ArrayList<>();
-        for(int i=0;i<names.length;i+=5){
+        for (int i = 0; i < names.length; i += 5) {
             list.add(names[i]);
         }
         System.out.println(Arrays.toString(list.toArray(new String[list.size()])));

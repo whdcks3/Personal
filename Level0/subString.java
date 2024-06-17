@@ -1,15 +1,15 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class subString {
+public class SubString {
     public static void main(String[] args) {
-        String myString ="axbxcxdx";
+        String myString = "axbxcxdx";
 
         String[] str = myString.split("x");
         ArrayList<String> arr = new ArrayList<>();
 
-        for (String st : str){
-            if(!st.isEmpty()){
+        for (String st : str) {
+            if (!st.isEmpty()) {
                 arr.add(st);
             }
         }

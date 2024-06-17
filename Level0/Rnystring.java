@@ -1,4 +1,4 @@
-public class Rnystring {
+public class RnyString {
     public static void main(String[] args) {
         String rnystring = "masterpiece"; // programmers, jerry
         String sb = rnystring.replaceAll("m", "rn");

@@ -1,12 +1,11 @@
-public class String_part {
+public class StringPart {
     public static void main(String[] args) {
         String str1 = "tbt";
         String str2 = "tbbttb";
 
-        if (str2.contains(str1)){
+        if (str2.contains(str1)) {
             System.out.println(1);
-        }
-        else
+        } else
             System.out.println(0);
     }
 }

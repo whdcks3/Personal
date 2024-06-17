@@ -1,22 +1,22 @@
 import java.util.Arrays;
 
-public class findDi {
+public class FindDi {
     public static void main(String[] args) {
-        int n=24;
-        int[] divi=new int[10000];
-        int count=0;
-        int i=1;
+        int n = 24;
+        int[] divi = new int[10000];
+        int count = 0;
+        int i = 1;
 
-        while(n>=i){
-            if(n%i==0){
-                divi[count++]=i;
+        while (n >= i) {
+            if (n % i == 0) {
+                divi[count++] = i;
             }
-            i=i+1;
+            i = i + 1;
         }
-        int[] answer=new int[count];
+        int[] answer = new int[count];
 
-        for(int j=0;j<count;j++){
-            answer[j]=divi[j];
+        for (int j = 0; j < count; j++) {
+            answer[j] = divi[j];
         }
         System.out.println(Arrays.toString(answer));
     }

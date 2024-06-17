@@ -1,11 +1,10 @@
-public class checkString {
+public class CheckString {
     public static void main(String[] args) {
         String my_string = "banana";
         String target = "ana";
-        if (my_string.contains(target)){
+        if (my_string.contains(target)) {
             System.out.println(1);
-        }
-        else
+        } else
             System.out.println(0);
     }
 }

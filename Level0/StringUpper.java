@@ -1,4 +1,4 @@
-public class String_upper {
+public class StringUpper {
     public static void main(String[] args) {
         String my_string = "aBcDeFg";
         my_string = my_string.toUpperCase();

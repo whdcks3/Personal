@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class withSpace {
+public class WithSpace {
     public static void main(String[] args) {
         String my_string = "i love you";
         String[] answer = my_string.split(" ");

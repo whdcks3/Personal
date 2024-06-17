@@ -1,4 +1,4 @@
-public class conversionString {
+public class ConversionString {
     public static void main(String[] args) {
         int n = 123;
         String answer = String.valueOf(n);

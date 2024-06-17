@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
-public class Separate_space {
+public class SeparateSpace {
     public static void main(String[] args) {
         String my_string = " i    love  you";
-        my_string=my_string.trim();
-        String[] arr=my_string.split("\\s+");
+        my_string = my_string.trim();
+        String[] arr = my_string.split("\\s+");
         System.out.println(Arrays.toString(arr));
     }
 }

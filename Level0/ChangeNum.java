@@ -1,9 +1,9 @@
 import java.util.Arrays;
 
-public class Change_num {
+public class ChangeNum {
     public static void main(String[] args) {
-        int[] num_list = {2,1,6};
-        int n=1;
+        int[] num_list = { 2, 1, 6 };
+        int n = 1;
         int[] answer = new int[num_list.length];
         int index = 0;
 

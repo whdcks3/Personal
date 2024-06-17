@@ -1,6 +1,6 @@
-public class upcaseLo {
+public class UpcaseLo {
     public static void main(String[] args) {
-        String my_string ="cccCCC";
+        String my_string = "cccCCC";
         String answer = "";
         for (int i = 0; i < my_string.length(); i++) {
             if (Character.isUpperCase(my_string.charAt(i))) {

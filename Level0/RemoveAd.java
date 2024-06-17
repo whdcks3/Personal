@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Remove_ad {
+public class RemoveAd {
     public static void main(String[] args) {
-        String[] strArr = {"and","notad","abcd"};
-        List<String> answer=new ArrayList<>();
+        String[] strArr = { "and", "notad", "abcd" };
+        List<String> answer = new ArrayList<>();
 
-        for(String arr : strArr){
-            if(!arr.contains("ad")){
+        for (String arr : strArr) {
+            if (!arr.contains("ad")) {
                 answer.add(arr);
             }
         }

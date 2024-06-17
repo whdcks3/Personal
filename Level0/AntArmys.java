@@ -1,15 +1,15 @@
-public class antArmy {
+public class AntArmys {
     public static void main(String[] args) {
         int hp = 23;
         int count = 0;
-        
-        count+=hp/5;
-        hp%=5;
 
-        count+=hp/3;
-        hp%=3;
+        count += hp / 5;
+        hp %= 5;
 
-        count+=hp/1;
+        count += hp / 3;
+        hp %= 3;
+
+        count += hp / 1;
 
         System.out.println(count);
     }
